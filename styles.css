@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+#calculator{
+    
+    flex-direction: column;
+    background-color: #000000;
+    width: 700px;
+    height: 980px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden; 
+    
+}
+#keys{
+    position: absolute;
+    top: 180px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 25px;
+    position: absolute;
+    
+}
+button{
+    width: 150px;
+    height: 150px;
+    background-color: #4d4a4aa4;
+    border-radius: 100px;
+    border-width: 3px;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    transform: translate(10px, -5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+
+}
+#display{
+    width: 585px;
+    height: 155px;
+    border-radius: 10px;
+    border-color: transparent;
+    border-width: 10px;
+    background-color: #000000;
+    position: absolute;
+transform: translate(40px, 10px);
+font-size: 70px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+button:hover{
+    background-color: #99939379;
+    transition: 0.3s;
+    color: #ffffffd3;
+    
+}
+button:active{
+    background-color: #ffffff81;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+
+
+
+.operator-btn{
+    background-color: #ff9721e1 ;
+    border-color: transparent; 
+}
+.operator-btn:hover{
+    background-color: #f7b046 ;
+    transition: 0.3s;
+    
+}
+.operator-btn:active{
+    background-color: #ffedd1;
+    transition: 0.3s;
+    
+}
+.operator-btn-is{
+    transform: translate(475px, -5px); 
+    background-color: #ff9721e1 ;
+}
+.operator-btn-is:hover{
+    background-color: #f7b046 ;
+    transition: 0.3s;
+    
+}
+.operator-btn-is:active{
+    background-color: #ffedd1;
+    transition: 0.3s;
+    
+}
+
